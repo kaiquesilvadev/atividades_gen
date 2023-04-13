@@ -5,15 +5,15 @@ import java.util.Scanner;
 public class main {
 public static void main(String args[]){
 		
-		double salario,abono,novo;
+		float salario,abono,novo;
 		Scanner leia = new Scanner(System.in);
 		
 		
 		System.out.println("quanto você ganha ? ");
-		salario = leia.nextDouble();
+		salario = leia.nextFloat();
 		
 		System.out.println("quanto é o abono ? ");
-		abono = leia.nextDouble();
+		abono = leia.nextFloat();
 		
 		novo = salario+abono;
 		
