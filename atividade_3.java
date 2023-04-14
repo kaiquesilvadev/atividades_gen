@@ -18,13 +18,13 @@ public class atividade_3 {
 		System.out.println("quanto é seu adicional noturno ? ");
 		noturno = leia.nextFloat();
 		
-		System.out.println("quanto você faz de extra por mês ?");
+		System.out.println("quantas horas extra você tem ?");
 		extra = leia.nextFloat();
 		
 		System.out.println("tem algum desconto no salário ? ");
 		descontos =leia.nextFloat();
 		
-		salario = bruto+noturno+extra-descontos ;
+		salario = bruto+noturno+(extra*5)-descontos ;
 		
 		System.out.println("você em no final do mês o total de R$"+salario);
 		
